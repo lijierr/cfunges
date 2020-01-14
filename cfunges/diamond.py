@@ -45,8 +45,11 @@ class diamond_parser(self):
 	'''Parse diamond result (format 6)'''
 	def __init__(self, m6, **targs):
 		self.m6 = m6
-		self.targs = **targs
+		self.targs = targs
+		self.parsed_diamond = pandas.read_csv(self.targs.diamond_out, sep='\t', header=None, index_col=0)
 		
+	def _identity(self):
+		self.parsed_diamond
 
 
 
