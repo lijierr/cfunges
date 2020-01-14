@@ -1,0 +1,1 @@
+/30days/s4506266/projects/2.liutao_6samples/1.4samples_metagenome/4.binning/4.binning_for_merge_assembly/2.check_P_hdh_hzs_nirsk/all_nitrogen_methane_genes.pep
